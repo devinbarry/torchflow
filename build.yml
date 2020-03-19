@@ -1,0 +1,9 @@
+---
+
+version: '3.7'
+services:
+  torchflow:
+    build:
+      context: docker
+      dockerfile: torchflow/py37/Dockerfile
+    image: softwrdev/torchflow:latest-py37
